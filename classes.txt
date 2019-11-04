@@ -4,10 +4,9 @@ Attributes
 1. material (string)
 2. lengthFeet (integer)
 3. color (string)
-4. type (string)
-5. Cargo (array)
-6. speed (integer)
-7. engineOn (boolean)
+4. Cargo (array)
+5. speed (integer)
+6. engineOn (boolean)
 
 Method
 1. addCargo "add a item(string) to cargo"
