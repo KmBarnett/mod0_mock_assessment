@@ -1,0 +1,16 @@
+Boat(class)
+
+Attributes
+1. material (string)
+2. lengthFeet (integer)
+3. color (string)
+4. type (string)
+5. Cargo (array)
+6. speed (integer)
+7. engineOn (boolean)
+
+Method
+1. addCargo "add a item(string) to cargo"
+2. startEngine "make engineOn value true"
+3. accelerate "add speed by 1 knot per 1 minute of accelerate"
+4. decelerate "subtract speed by 1 knot per 30 seconds of decelerate"
