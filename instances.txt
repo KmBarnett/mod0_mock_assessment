@@ -1,0 +1,37 @@
+Instances
+1.cargo_ship
+  Attributes
+  1. material (metal)
+  2. lengthFeet (1300)
+  3. color ([top:green, bottom:red])
+  4. Cargo ([car, food, clothes, chemicals])
+  5. speedKnots (21)
+  6. engineOn (true)
+  Methods
+  1. addCargo "add McLaren P1"
+      Cargo ([car, food, clothes, chemicals, McLaren P1]
+  2. startEngine "make engineOn value true"
+    startEngine already true
+  3. accelerate " 3 minutes (add speed by 1 knot per 1 minute of accelerate)"
+    speedKnots 24
+  4. decelerate "4 minutes (subtract speed by 1 knot per 30 seconds of decelerate)"
+    speedKnots 16
+
+
+2.fishing_boat
+  Attributes
+  1. material (fiber glass)
+  2. lengthFeet (24)
+  3. color ([top:navy-blue, bottom:cream])
+  4. Cargo ([tuna, fisher_man, food, bait, reals, rods])
+  5. speedKnots (9)
+  6. engineOn (true)
+  Methods
+  1. addCargo "add tuna to cargo"
+    cargo [tuna (2), fisher_man, food, bait, reals, rods]
+  2. startEngine "make engineOn value true"
+    startEngine already true
+  3. accelerate "5 minutes (add speed by 1 knot per 1 minute of accelerate)"
+    speedKnots 14
+  4. decelerate "1.5 minutes (subtract speed by 1 knot per 30 seconds of decelerate)"
+    speedKnots 11

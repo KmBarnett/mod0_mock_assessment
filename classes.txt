@@ -3,9 +3,9 @@ Boat(class)
 Attributes
 1. material (string)
 2. lengthFeet (integer)
-3. color (string)
+3. color (string/array)
 4. Cargo (array)
-5. speed (integer)
+5. speedKnots (integer)
 6. engineOn (boolean)
 
 Method
